@@ -9,7 +9,7 @@ date_default_timezone_set('Asia/Dubai');
 $dbhost = 'localhost';
 
 // Database Name
-$dbname = 'hub'; //fashiony_ogs
+$dbname = 'HUB'; //fashiony_ogs
 
 // Database Username
 $dbuser = 'root';
@@ -18,7 +18,7 @@ $dbuser = 'root';
 $dbpass = '';
 
 // Defining base url
-define("BASE_URL", ""); //url ayga idhr
+define("BASE_URL", "http://creativehub.com/");
 
 // Getting Admin url
 define("ADMIN_URL", BASE_URL . "admin" . "/");
