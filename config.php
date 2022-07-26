@@ -1,4 +1,19 @@
+
 <?php
+define('DB_SERVER','localhost');
+define('DB_USER','root');
+define('DB_PASS' ,'');
+define('DB_NAME', 'hub');
+$con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
+// Check connection
+if (mysqli_connect_errno())
+{
+ echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+?>
+
+
+<!--<php
 // Error Reporting Turn On
 ini_set('error_reporting', E_ALL);
 
@@ -9,7 +24,7 @@ date_default_timezone_set('Asia/Dubai');
 $dbhost = 'localhost';
 
 // Database Name
-$dbname = 'hub'; //fashiony_ogs
+$dbname = 'HUB'; //fashiony_ogs
 
 // Database Username
 $dbuser = 'root';
@@ -18,7 +33,7 @@ $dbuser = 'root';
 $dbpass = '';
 
 // Defining base url
-define("BASE_URL", ""); //url ayga idhr
+define("BASE_URL", "http://creativehub.com/");
 
 // Getting Admin url
 define("ADMIN_URL", BASE_URL . "admin" . "/");
@@ -29,4 +44,4 @@ try {
 }
 catch( PDOException $exception ) {
 	echo "Connection error :" . $exception->getMessage();
-}
+}-->

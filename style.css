@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 
 body {
-	font-size: 13px;
+	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -250,7 +250,7 @@ img.existing-photo {
 .skin-blue .main-header .logo:hover,
 .skin-blue .main-header .navbar,
 .skin-blue .main-header .navbar .sidebar-toggle:hover {
-	background-color: #FA4D0E;
+	background-color: #333333;
 }
 
 .skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
@@ -259,7 +259,7 @@ img.existing-photo {
 }
 
 .nav-tabs-custom>.nav-tabs>li.active {
-	border-top-color: #FA4D0E; 
+	border-top-color: #333333;
 }
 .box.box-info {
 	border-top-color: #4c4c4c;
